@@ -118,3 +118,44 @@ h1:hover {
     cursor: pointer;
     border-radius: .5em;
 }
+
+/* Flexbox */
+.flex {
+    margin-top: 100px;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1f1b29;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flexbox {
+    /* width: 150px; */
+    height: 150px;
+    flex-basis: 100px;
+}
+
+.flex1 {
+    background-color: #80c261;
+    flex-grow: 1;
+}
+
+.flex2 {
+    background-color: #199735;
+}
+
+.flex3 {
+    background-color: #410fcc;
+    /* align-self: center; */
+}
+
+.flex4 {
+    background-color: #b152e7;
+}
+
+.flex5 {
+    background-color: #af7161;
+    flex-grow: 2;
+}
