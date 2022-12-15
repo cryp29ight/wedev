@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>intro</title>
+</head>
+
+<body>
+    <h1>Hey it's your boy from the hood!</h1>
+    <p class="little-text">
+        Lorem ipsum, dolor sit ames connecter adipisicing elif. Nostrum, maxixe
+        a, cupidities temporize descent, sit beat aspersion's minus pariah
+        consecrator ottar. Illiquid qui quam molality bossism's Nero quiver, id
+        natur?
+    </p>
+    <hr />
+    <h4>Ordered List</h4>
+    <ol class="ordered-list">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+
+    <hr />
+
+    <h3>Unordered list</h3>
+    <ul class="unordered-list">
+        <li>another1</li>
+        <li>another2</li>
+        <li>another3</li>
+        <li>another4</li>
+        <li>another5</li>
+    </ul>
+
+    <hr />
+
+    <h4>Links</h4>
+    <a href="#">Click Me</a>
+
+    <hr />
+
+    <h4>Tables</h4>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Identity</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Spider</th>
+                <td>22</td>
+                <td>male</td>
+                <td>delhi</td>
+            </tr>
+            <tr>
+                <th>Spider</th>
+                <td>22</td>
+                <td>male</td>
+                <td>delhi</td>
+            </tr>
+            <tr>
+                <th>Spider</th>
+                <td>22</td>
+                <td>male</td>
+                <td>delhi</td>
+            </tr>
+            <tr>
+                <th>Spider</th>
+                <td>22</td>
+                <td>male</td>
+                <td>delhi</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4">Done</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+
+    <!-- Forms -->
+    <h4>Forms</h4>
+
+    <form action="#" method="get">
+        <label for="uname">Username:</label>
+        <input type="text" name="uname" id="uname" placeholder="Enter your username here" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email here" required>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password here" required
+            minlength="4" maxlength="8">
+        <br>
+
+        <label for="con-password">Confirm Password:</label>
+        <input type="password" name="con-password" id="con-password" placeholder="Confirm your password here" required
+            minlength="4" maxlength="8">
+        <br>
+
+        <input type="checkbox" name="not-email" id="not-email">
+        <label for="not-email">Notifications on your email</label>
+        <br>
+
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br>
+
+        <label for="city">Select your city:</label>
+        <select name="city" id="city">
+            <option value="default">---please select a city---</option>
+            <option value="ghy">Guwahati</option>
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+        </select>
+        <br>
+
+        <label for="desc">Describe about you:</label>
+        <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+
+        <button type="submit">submit</button>
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <hr>
+
+    <section>
+        <!-- Race registration form -->
+
+        <h2>Race Registration!</h2>
+        <form action="race" method="get">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" required placeholder="Enter your first name">
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" required placeholder="Enter your last name">
+            <br>
+
+            <p>Select a Race:</p>
+
+            <input type="radio" name="race" id="fr" value="fr">
+            <label for="fr">Fun Run 5k</label>
+            <br>
+
+            <input type="radio" name="race" id="hm" value="half">
+            <label for="hm">Half Marathon</label>
+            <br>
+
+            <input type="radio" name="race" id="fm" value="full">
+            <label for="fm">Full Marathon</label>
+            <br>
+
+            <label for="remail">Email</label>
+            <input type="email" name="email" id="remail" required placeholder="Enter your email">
+
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass" require placeholder="Enter your password">
+            <br>
+
+            <label for="ag">Select Age Group</label>
+            <select name="age" id="ag">
+                <option value="kids">under 18</option>
+                <option value="ya">18-35</option>
+                <option value="adults">35-50</option>
+            </select>
+            <br>
+
+            <button>Register!</button>
+
+        </form>
+        <br>
+        <br>
+        <br>
+        <hr>
+    </section>
+
+    <section>
+        <h3>Position</h3>
+
+        <div class="container">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+            <div class="box box4"></div>
+        </div>
+    </section>
+
+    <!-- button -->
+    <div class="button">
+        <button>Hover Me</button>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Fira Code';
+    color: blueviolet;
+    text-align: center;
+    letter-spacing: .1rem;
+    /* text-decoration: blue underline; */
+}
+
+.little-text {
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: .1rem;
+    line-height: 1.5;
+    word-spacing: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.little-text::first-letter {
+    font-weight: bold;
+    color: crimson;
+}
+
+.little-text::selection {
+    background-color: darkgray;
+}
+
+h1:hover {
+    color: darkblue;
+}
+
+.unordered-list li {
+    display: inline-block;
+}
+
+.unordered-list li {
+    width: 100px;
+}
+
+/* Position */
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: 80px;
+    background-color: darkgray;
+    position: relative;
+}
+
+.box {
+    /* background-color: blueviolet; */
+    width: 100px;
+    height: 100px;
+    border: 2px solid blueviolet;
+    display: inline-block;
+    /* border: 5px solid rgb(189, 46, 2); */
+}
+
+.box1 {
+    background-color: aqua;
+}
+
+.box2 {
+    background-color: aquamarine;
+    position: absolute;
+    left: 209px;
+}
+
+.box3 {
+    background-color: beige;
+}
+
+.box4 {
+    border: none;
+    position: absolute;
+    background-color: chartreuse;
+    top: 40%;
+    transition: 1s;
+}
+
+.box4:hover {
+    border-radius: 50%;
+    margin-left: 50px;
+
+}
+
+/* Button */
+.button {
+    /* width: 100vw; */
+    height: 100vh;
+    /* border: 2px solid blue ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1b29;
+}
+
+.button button {
+    font-family: Fira Code;
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: 0.25s;
+}
+
+.button button:hover {
+    border-color: #f1ff5c;
+    color: #ffff;
+    box-shadow: 0 0.5em 0.5rem -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
